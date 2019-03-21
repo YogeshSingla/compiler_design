@@ -1,0 +1,12 @@
+Write a flex scanner
+
+Convert the scanner to a C program using flex command as:
+	flex <filename>.l 
+
+Compile the C program using flex library -lfl as:
+	cc lex.yy.c -lfl
+
+Run the program as:
+	./a.out
+
+

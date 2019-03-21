@@ -1,0 +1,14 @@
+Assignment 8
+Considering the following grammar G
+S -> E$
+E -> E+E
+E -> E*E
+E -> (E)
+E -> I
+I -> I digit
+I -> digit
+
+1. Design a syntax directed translator for G. 
+2. Design a syntax directed translator for G that will perform infix-postfix translation. 
+3. Design a mechanism to generate three address codes for an statement/expression belonging to L(G).
+

@@ -1,0 +1,6 @@
+int a;
+int a,b;
+int myfun(int a);
+int myfun1(float a,char beacon);
+void abc;
+int a,

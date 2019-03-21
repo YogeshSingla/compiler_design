@@ -1,0 +1,5 @@
+Evaluating string: (a/\b\/cd)
+Parse Error 1 at position Binary operator or ) missing.
+Parse Error 2 at position No ( for ).
+Parse Error 3 at position Incomplete expression.
+The given expression is not a w.f.f.

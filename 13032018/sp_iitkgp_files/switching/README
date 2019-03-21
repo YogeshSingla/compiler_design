@@ -1,0 +1,9 @@
+Benchmark                                         Source code file names of different versions
+-----------------------------------------------------------------------------------------------------------------------
+                           Original                  Loop Unrolled              Loop Unrolled with Gray code sequence
+-----------------------------------------------------------------------------------------------------------------------
+Symbol Count             symbol_count.c            symbol_count_LU.c              symbol_count_LUG.c
+Counting Sort            count_sort.c              count_sort_LU.c                count_sort_LUG.c
+0-1 Knapsack             knapsack.c                knapsack_LU.c                  knapsack_LUG.c
+Treasure Island          treasure_island.c         treasure_island_LU.c           treasure_island_LUG.c
+Depth First Search       dfs.c                     dfs_LU.c                       dfs_LUG.c

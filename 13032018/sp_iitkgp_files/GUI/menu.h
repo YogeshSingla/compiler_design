@@ -1,0 +1,430 @@
+#include<conio.h>
+void student()
+{
+int x,y;
+char ch;
+gotoxy(3,3);
+textbackground(WHITE);
+textcolor(MAGENTA);
+cprintf("%c",218);
+for(x=4;x<20;x++)
+ {
+  gotoxy(x,3);
+  cprintf("%c",196);
+ }
+ gotoxy(3,4);
+for(x=4;x<13;x++)
+ {
+  gotoxy(3,x);
+  cprintf("%c",179);
+ }
+gotoxy(3,x-1);
+cprintf("%c",192);
+for(x=4;x<20;x++)
+ {
+    cprintf("%c",196);
+ }
+cprintf("%c",217);
+for(x=wherey()-1;x>3;x--)
+ {
+  gotoxy(20,x);
+  cprintf("%c",179);
+ }
+ gotoxy(20,x);
+ cprintf("%c",191);
+ textbackground(CYAN);
+for(x=4;x<20;x++)
+ for(y=4;y<12;y++)
+   {
+   gotoxy(x,y);
+   cprintf(" ");
+   }
+gotoxy(5,4);
+textcolor(MAGENTA);
+cprintf("C");
+textcolor(BLUE);
+cprintf("omp.Sc.&Engg.");
+gotoxy(5,5);
+textcolor(MAGENTA);
+cprintf("E");
+textcolor(BLUE);
+cprintf("lect&Comm.");
+gotoxy(5,6);
+textcolor(MAGENTA);
+cprintf("I");
+textcolor(BLUE);
+cprintf(".T.");
+x=0;
+/*do
+{
+ch=getch();
+if(ch==0)
+  {
+   if(ch==80)
+     {
+      if(x==3)
+       x=0;
+      studentmenu(ch,++x);
+     }
+    else
+    if(ch==72)
+      {
+       if(x==0)
+	x=3;
+       studentmenu(ch,--x);
+      }
+   }
+    else
+    if((ch=='C')||(ch=='c'))
+      x=studentmenu(ch,x);
+    else
+    if((ch=='E')||(ch=='e'))
+     x=studentmenu(ch,x);
+    else
+     if((ch=='I')||(ch=='i'))
+      x=studentmenu(ch,x);
+
+	   */
+
+
+
+
+}
+void teacher()
+{
+int x,y;
+gotoxy(13,3);
+textbackground(WHITE);
+textcolor(MAGENTA);
+cprintf("%c",218);
+for(x=14;x<=25;x++)
+ {
+  gotoxy(x,3);
+  cprintf("%c",196);
+ }
+ gotoxy(13,4);
+for(x=4;x<21;x++)
+ {
+  gotoxy(13,x);
+  cprintf("%c",179);
+ }
+gotoxy(13,x-1);
+cprintf("%c",192);
+for(x=14;x<=25;x++)
+ {
+    cprintf("%c",196);
+ }
+cprintf("%c",217);
+for(x=wherey()-1;x>3;x--)
+ {
+  gotoxy(26,x);
+  cprintf("%c",179);
+ }
+ gotoxy(26,x);
+ cprintf("%c",191);
+ textbackground(BROWN);
+for(x=14;x<=25;x++)
+ for(y=4;y<20;y++)
+   {
+   gotoxy(x,y);
+   cprintf(" ");
+   }
+
+gotoxy(15,4);
+textcolor(WHITE);
+cprintf("C");
+textcolor(YELLOW);
+cprintf("omputer");
+gotoxy(15,5);
+textcolor(YELLOW);
+cprintf("Mathematic");
+textcolor(WHITE);
+cprintf("s");
+gotoxy(15,6);
+cprintf("M");
+textcolor(YELLOW);
+cprintf("echanical");
+gotoxy(15,7);
+textcolor(WHITE);
+cprintf("P");
+textcolor(YELLOW);
+cprintf("hysics");
+gotoxy(15,8);
+textcolor(WHITE);
+cprintf("C");
+textcolor(YELLOW);
+cprintf("hemistry");
+gotoxy(15,9);
+cprintf("Electr");
+textcolor(WHITE);
+cprintf("o");
+textcolor(YELLOW);
+cprintf("nics");
+gotoxy(15,10);
+cprintf("Electr");
+textcolor(WHITE);
+cprintf("i");
+textcolor(YELLOW);
+cprintf("cal");
+gotoxy(15,11);
+cprintf("Eng");
+textcolor(WHITE);
+cprintf("l");
+textcolor(YELLOW);
+cprintf("ish");
+textcolor(BLUE);
+gotoxy(15,12);
+cprintf("P");
+textcolor(WHITE);
+cprintf("r");
+textcolor(BLUE);
+cprintf("incipal");
+
+
+}
+void office()
+{
+int x,y;
+gotoxy(22,3);
+textbackground(WHITE);
+textcolor(MAGENTA);
+cprintf("%c",218);
+for(x=23;x<=30;x++)
+  cprintf("%c",196);
+for(x=4;x<=12;x++)
+ {
+  gotoxy(22,x);
+  cprintf("%c",179);
+ }
+gotoxy(22,x-1);
+cprintf("%c",192);
+for(x=23;x<=30;x++)
+cprintf("%c",196);
+cprintf("%c",217);
+for(x=wherey()-1;x>3;x--)
+ {
+  gotoxy(31,x);
+  cprintf("%c",179);
+ }
+ gotoxy(31,x);
+ cprintf("%c",191);
+ textbackground(LIGHTGREEN);
+for(x=23;x<=30;x++)
+ for(y=4;y<12;y++)
+   {
+   gotoxy(x,y);
+   cprintf(" ");
+   }
+}
+void library()
+{
+int x,y;
+gotoxy(32,3);
+textbackground(WHITE);
+textcolor(MAGENTA);
+cprintf("%c",218);
+for(x=33;x<=45;x++)
+  cprintf("%c",196);
+for(x=4;x<=12;x++)
+ {
+  gotoxy(32,x);
+  cprintf("%c",179);
+ }
+gotoxy(32,x-1);
+cprintf("%c",192);
+for(x=33;x<=45;x++)
+cprintf("%c",196);
+cprintf("%c",217);
+for(x=wherey()-1;x>3;x--)
+ {
+  gotoxy(46,x);
+  cprintf("%c",179);
+ }
+ gotoxy(46,x);
+ cprintf("%c",191);
+ textbackground(LIGHTGREEN);
+for(x=33;x<=45;x++)
+ for(y=4;y<12;y++)
+   {
+   gotoxy(x,y);
+   cprintf(" ");
+   }
+gotoxy(34,4);
+textcolor(MAGENTA);
+cprintf("B");
+textcolor(YELLOW);
+cprintf("OOKS");
+gotoxy(34,5);
+textcolor(MAGENTA);
+cprintf("C");
+textcolor(YELLOW);
+cprintf("ARDNO.");
+gotoxy(34,6);
+textcolor(MAGENTA);
+cprintf("L");
+textcolor(YELLOW);
+cprintf("OST");
+gotoxy(34,7);
+cprintf("LIBR");
+textcolor(MAGENTA);
+cprintf("A");
+textcolor(YELLOW);
+cprintf("RIAN");
+}
+void laboratory()
+{
+int x,y;
+gotoxy(43,3);
+textbackground(WHITE);
+textcolor(MAGENTA);
+cprintf("%c",218);
+for(x=44;x<=55;x++)
+  cprintf("%c",196);
+for(x=4;x<=18;x++)
+ {
+  gotoxy(43,x);
+  cprintf("%c",179);
+ }
+gotoxy(43,x-1);
+cprintf("%c",192);
+for(x=44;x<=55;x++)
+cprintf("%c",196);
+cprintf("%c",217);
+for(x=wherey()-1;x>3;x--)
+ {
+  gotoxy(56,x);
+  cprintf("%c",179);
+ }
+   gotoxy(56,x);
+ cprintf("%c",191);
+ textbackground(LIGHTGREEN);
+for(x=44;x<=55;x++)
+ for(y=4;y<18;y++)
+   {
+   gotoxy(x,y);
+   cprintf(" ");
+   }
+gotoxy(45,4);
+cprintf("C");
+textcolor(YELLOW);
+cprintf("omputer");
+gotoxy(45,5);
+textcolor(MAGENTA);
+cprintf("W");
+textcolor(YELLOW);
+cprintf("ork Shop");
+gotoxy(45,6);
+textcolor(MAGENTA);
+cprintf("P");
+textcolor(YELLOW);
+cprintf("hysics");
+gotoxy(45,7);
+textcolor(MAGENTA);
+cprintf("C");
+textcolor(YELLOW);
+cprintf("hemistry");
+gotoxy(45,8);
+cprintf("Electr");
+textcolor(MAGENTA);
+cprintf("o");
+textcolor(YELLOW);
+cprintf("nics");
+gotoxy(45,9);
+cprintf("Electr");
+textcolor(MAGENTA);
+cprintf("i");
+textcolor(YELLOW);
+cprintf("cal");
+textcolor(YELLOW);
+}
+void documents()
+{
+int x,y;
+gotoxy(53,3);
+textbackground(WHITE);
+textcolor(MAGENTA);
+cprintf("%c",218);
+for(x=54;x<=65;x++)
+  cprintf("%c",196);
+for(x=4;x<=12;x++)
+ {
+  gotoxy(53,x);
+  cprintf("%c",179);
+ }
+gotoxy(53,x-1);
+cprintf("%c",192);
+for(x=54;x<=65;x++)
+cprintf("%c",196);
+cprintf("%c",217);
+for(x=wherey()-1;x>3;x--)
+ {
+  gotoxy(66,x);
+  cprintf("%c",179);
+ }
+ gotoxy(66,x);
+ cprintf("%c",191);
+ textbackground(LIGHTGREEN);
+for(x=54;x<=65;x++)
+ for(y=4;y<12;y++)
+   {
+   gotoxy(x,y);
+   cprintf(" ");
+   }
+}
+void help()
+{
+int x,y;
+gotoxy(60,3);
+textbackground(WHITE);
+textcolor(MAGENTA);
+cprintf("%c",218);
+for(x=61;x<=75;x++)
+ {
+  gotoxy(x,3);
+  cprintf("%c",196);
+ }
+for(x=4;x<11;x++)
+ {
+  gotoxy(60,x);
+  cprintf("%c",179);
+ }
+gotoxy(60,x-1);
+cprintf("%c",192);
+for(x=61;x<=75;x++)
+ {
+    cprintf("%c",196);
+ }
+cprintf("%c",217);
+for(x=wherey()-1;x>3;x--)
+ {
+  gotoxy(76,x);
+  cprintf("%c",179);
+ }
+ gotoxy(76,x);
+ cprintf("%c",191);
+ textbackground(LIGHTGREEN);
+for(x=61;x<=75;x++)
+ for(y=4;y<10;y++)
+   {
+   gotoxy(x,y);
+   cprintf(" ");
+   }
+
+}
+void clear()
+{
+int x,y;
+textbackground(RED);
+textcolor(YELLOW);
+  for(x=3;x<79;x++)
+ {
+  gotoxy(x,3);
+  cprintf("%c",196);
+ }
+for(x=3;x<79;x++)
+ for(y=4;y<24;y++)
+   {
+   gotoxy(x,y);
+   cprintf(" ");
+   }
+}

@@ -1,0 +1,15 @@
+Evaluating string: (a/\b\/c)
+The given expression is a valid w.f.f.
+TRUTH TABLE OF THE GIVEN EXPRESSION
+a b c   T1=a/\b   T2=T1\/c   Result=T2
+
+T T T        T        T        
+F T T        F        T        
+T F T        F        T        
+F F T        F        T        
+T T F        T        T        
+F T F        F        F        
+T F F        F        F        
+F F F        F        F        
+The given w.f.f. is Satisfiable
+
